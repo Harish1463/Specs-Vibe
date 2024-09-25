@@ -1,0 +1,288 @@
+*{
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+/* Background Image */
+.abt-s1-background-img{
+    background:  linear-gradient(rgba(43, 57, 145, .75), rgba(43, 57, 145, .75)), url('../../Images/About/About-Background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center !important;
+
+    text-align: center;
+
+    padding: 110px 80px !important;
+}
+
+/* Text */
+.abt-s1-text{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+
+/* Text Container */
+.abt-s1-txt-container{
+    margin-bottom: 16px;
+}
+
+/* Nav Link */
+.abt-s1-navlink{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* span */
+.abt-s1-para{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-bottom: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* TAB view */
+@media screen and (max-width: 992px ) {
+    /* Background Image */
+    .abt-s1-background-img{
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+}
+
+/* ----------------------------------------------------------Section 2---------------------------------------------------------- */
+
+/* Container */
+.abt-s2-container{
+    padding: 125px 150px !important ;
+}
+
+/* Column 1 */
+.abt-s2-col1-container{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* Heading 1 */
+.abt-s2-heading1{
+    color: #f8931d;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+/* Heading 2 */
+.abt-s2-heading2{
+    color: #2b3991;
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+/* Paragraph */
+.abt-s2-para{
+    color: #00000099;
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+/* List Text */
+.abt-s2-list-txt{
+    color: #000000cf;
+    font-size: 16px;
+    line-height: 25px;
+    list-style-type: disc;
+}
+
+/* List Style */
+.abt-s2-list-txt::marker{
+    font-size: 25px;
+    color: #2b3991;
+}
+
+/* Column 2 */
+.abt-s2-col2-container{
+    padding: 28px 15px 0px 15px !important;
+}
+
+/* Count container */
+.abt-s2-count-container{
+    padding: 48px;
+    margin-bottom: 30px;
+    background-color: #f1f1f1;
+    text-align: center;
+    transition: 1s ease;
+
+    &:hover{
+        box-shadow: 0px 0px 12px #2b3991;
+    }
+}
+
+/* Count Number */
+.abt-s2-count-num{
+    font-size: 44px;
+    font-weight: 800;
+    color: #2b3991;
+}
+
+/* Count Text */
+.abt-s2-count-txt{
+    font-size: 16px;
+    color: #000000cc;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .abt-s2-container{
+        padding: 80px 35px !important;
+    }
+
+    /* Column 2 */
+    .abt-s2-col2-container{
+        padding: 30px 40px !important;
+    }
+}
+
+/* -----------------------------------------------------------Section 5-------------------------------------------------------------- */
+
+/* Container */
+.abt-s5-container{
+    padding: 125px 150px !important ;
+}
+
+/* Card Container */
+.abt-s5-card-container{
+    padding: 0px 15px;
+    padding-top: 80px;
+}
+
+/* Heading 1 */
+.abt-s5-heading1{
+    color: #f8931d;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Heading 2 */
+.abt-s5-heading2{
+    color: #2b3991;
+    font-size: 38px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+/* Card Image Container */
+.abt-s5-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Card Image */
+.abt-s5-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+/* Card Hover Element */
+.abt-s5-card-hover{
+    background-color: #f9b127;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    opacity: 0;
+    transform: scale(0);
+    transition: 1s ease-in-out;
+}
+
+.abt-s5-img:hover+.abt-s5-card-hover{
+    opacity: 1;
+    transform: scale(0.5);
+}
+
+.abt-s5-card-hover div{
+    background-color: #f9b127;
+    font-size: 35px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+/* Card Text Container */
+.abt-s5-card-txt-container{
+    padding-top: 16px;
+}
+
+/* Card Caption */
+.abt-s5-caption{
+    color: #f8931d;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+/* Card Paragraph */
+.abt-s5-para{
+    color: #00000099;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .abt-s5-container{
+        padding: 125px 30px !important ;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 992px) {
+    
+    /* Heading 2 */
+    .abt-s5-heading2{
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+    /* Card Container */
+    .abt-s5-card-container{
+        padding-top: 40px;
+    }
+
+    /* Card Hover Element */
+    .abt-s5-card-hover{
+        top: 60%;
+        left: 55%;
+    }
+}

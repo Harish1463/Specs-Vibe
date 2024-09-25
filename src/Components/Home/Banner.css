@@ -1,0 +1,145 @@
+/* Image container */
+.home-img-container{
+    position: relative;
+
+    height: 600px;
+    width: 100%;
+
+    /* background-attachment: fixed !important; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.5; /* Starting the img trancision from faded img */
+    transition: 0.5s ease-in-out; /* The trancision period */
+
+    scale: 0.97;
+}
+
+.slick-active .home-img-container{
+    opacity: 1; /* Finally the img is to its original opacity */
+    scale: 1;
+}
+
+/* Text Container */
+.home-txt-container{
+    position: absolute;
+    top: 30%;
+    padding-left: 150px !important;
+
+    opacity: 0.5; /* Starting the btn[ONLY] trancision from faded btn[ONLY] */
+    transition: 1s ease-in-out; /* The trancision period */
+
+    scale: 0.97;
+}
+
+.slick-active .home-txt-container{
+    opacity: 1; /* Finally the btn[ONLY] is to its original opacity */
+
+    scale: 1;
+}
+
+/* Banner Heading 1 */
+.home-banner-heading1{
+    font-size: 60px;
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #3345a7;
+    font-weight: 800;
+
+    opacity: 0.5; /* Starting the heading1 trancision from faded heading1 */
+    transition: 0.5s ease-in-out; /* The trancision period */
+
+    scale: 0.97;
+}
+
+.slick-active .home-banner-heading1{
+    opacity: 1; /* Finally the heading1 is to its original opacity */
+
+    scale: 1;
+}
+
+/* Banner Heading 2 */
+.home-banner-heading2{
+    font-size: 60px;
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #fff;
+    font-weight: 800;
+
+    opacity: 0.5; /* Starting the heading2 trancision from faded heading2 */
+    transition: 0.5s ease-in-out; /* The trancision period */
+
+    scale: 0.97;
+}
+
+.slick-active .home-banner-heading2{
+    opacity: 1; /* Finally the heading2 is to its original opacity */
+
+    scale: 1;
+}
+
+/* Banner Paragraph */
+.home-banner-para{
+    color: #f8931d;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+
+    opacity: 0.5; /* Starting the para trancision from faded para */
+    transition: 0.5s ease-in-out; /* The trancision period */
+
+    scale: 0.97;
+}
+
+.slick-active .home-banner-para{
+    opacity: 1; /* Finally the para is to its original opacity */
+
+    scale: 1;
+}
+
+/* Banner Button */
+.home-banner-btn{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Work Sans", Arial, sans-serif;
+    background-color: #da1c5c;
+    padding: 16px 24px !important;
+    border-radius: 30px;
+}
+
+/* Button Container */
+.home-banner-btn-container{
+    margin-top: 40px !important;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    /* Text Container */
+    .home-txt-container{
+        padding-left: 25px !important;
+    }
+
+    /* Banner Heading 1 */
+    .home-banner-heading1{
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    /* Banner Heading 2 */
+    .home-banner-heading2{
+        font-size: 30px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+
+    /* Text Container */
+    .home-txt-container{
+        width: 20%;  /* I don't Know how but it takes the 100% width of entire MOBILE screen */
+        padding-left: 20px !important;
+        text-align: center;
+    }
+}

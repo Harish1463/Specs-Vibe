@@ -1,0 +1,153 @@
+*{
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+/* Background Image */
+.con-s1-background-img{
+    background:  linear-gradient(rgba(43, 57, 145, .75), rgba(43, 57, 145, .75)), url('../../Images/Contact/bg_2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center !important;
+
+    text-align: center;
+
+    padding: 110px 80px !important;
+}
+
+/* Text */
+.con-s1-text{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+
+/* Text Container */
+.con-s1-txt-container{
+    margin-bottom: 16px;
+}
+
+/* Nav Link */
+.con-s1-navlink{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* span */
+.con-s1-para{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-bottom: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* TAB view */
+@media screen and (max-width: 992px ) {
+    /* Background Image */
+    .con-s1-background-img{
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+}
+
+/* ----------------------------------------------------------------Section 2-------------------------------------------------------- */
+
+/* Container */
+.con-s2-container{
+    padding: 80px 150px !important;
+}
+
+/* Column 1 Container */
+.con-s2-col1-container{
+    padding: 48px !important;
+    background-color: #f1f1f1;
+}
+
+/* Heading 1 */
+.con-s2-heading1{
+    color: #f8931d;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Heading 2 */
+.con-s2-heading2{
+    color: #2b3991;
+    font-size: 38px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+/* Icon */
+.con-s2-icon{
+    color: #2b3991;
+    margin-right: 15px;
+    font-size: 20px;
+    height: fit-content;;
+}
+
+/* Icon Heading */
+.con-s2-sm-heading{
+    font-size: 20px;
+    color: #000000cc;
+    font-weight: 600;
+}
+
+/* Icon Paragraph */
+.con-s2-sm-para{
+    color: #00000099;
+    font-size: 16px;
+}
+
+/* Paragraph */
+.con-s2-para{
+    color: #2b3991;
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+/* Map */
+.con-s2-map{
+    padding-left: 25px;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .con-s2-container{
+        padding: 80px 60px !important;
+    }
+
+    /* Map */
+    .con-s2-map{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Heading 2 */
+    .con-s2-heading2{
+        font-size: 32px;
+    }
+
+    /* Paragraph */
+    .con-s2-para{
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

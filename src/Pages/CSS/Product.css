@@ -1,0 +1,377 @@
+*{
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+/* Background Image */
+.pro-s1-background-img{
+    background:  linear-gradient(rgba(43, 57, 145, .75), rgba(43, 57, 145, .75)), url('../../Images/About/About-Background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center !important;
+
+    text-align: center;
+
+    padding: 110px 80px !important;
+}
+
+/* Text */
+.pro-s1-text{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+
+/* Text Container */
+.pro-s1-txt-container{
+    margin-bottom: 16px;
+}
+
+/* Nav Link */
+.pro-s1-navlink{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* span */
+.pro-s1-para{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-bottom: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* TAB view */
+@media screen and (max-width: 992px ) {
+    /* Background Image */
+    .pro-s1-background-img{
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+}
+
+/* ----------------------------------------------------------------Section 2----------------------------------------------------------- */
+
+/* Container */
+.pro-s2-container{
+    padding: 100px 150px !important;
+}
+
+/* Heading 1 */
+.pro-s2-heading1{
+    color: #f8931d;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Heading 2 */
+.pro-s2-heading2{
+    color: #2b3991;
+    font-size: 38px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+/* Paragraph */
+.pro-s2-para{
+    color: #00000099;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+/* Small Container */
+.pro-s2-sm-container{
+    margin-bottom: 0px;
+}
+
+/* Small Heading */
+.pro-s2-sm-heading{
+    color: #f8931d;
+    font-size: 23px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* Circle Container */
+.pro-s2-circle-container{
+    position: relative;
+    margin-right: 50px;
+}
+
+
+/* Circle */
+.pro-s2-circle{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    margin-bottom: 60px;
+    
+}
+
+/* Image Container */
+.pro-img-container{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+/* Image */
+.pro-s2-img{
+    background-color: #fff;
+    height: 45px;
+    width: 45px;
+    
+}
+
+/* Grid */
+.pro-s2-grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    background-color: #f1f1f1;
+    grid-gap: 3px;
+    height: auto;
+}
+
+/* Grid Child */
+.pro-s2-child{
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+/* TAB view*/
+@media screen and (max-width: 992px) {
+
+    /* Container */
+    .pro-s2-container{
+        padding: 100px 30px !important;
+    }
+
+    /* Grid */
+    .pro-s2-grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+    }
+
+    /* Grid Child */
+    .pro-s2-child{
+        justify-content: start;
+        padding-left: 10px;
+        padding-bottom: 0px;
+    }
+    
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+
+    /* Heading 2 */
+    .pro-s2-heading2{
+        font-size: 32px;
+    }
+    
+    /* Grid Child */
+    .pro-s2-child{
+        justify-content: start;
+        padding: 15px;
+    }
+}
+
+/* -----------------------------------------------------------Section 3------------------------------------------------------------- */
+
+/* Container */
+.pro-s3-container{
+    padding: 50px 150px !important;
+    padding-bottom: 0px !important;
+}
+
+/* Grid */
+.pro-s3-grid{
+    padding-top: 50px;
+}
+
+/* Child */
+.pro-s3-child{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Image Container */
+.pro-s3-img-container{
+    padding: 12px;
+    border: 2px solid #2b3991;
+    margin-right: 30px;
+    margin-bottom: 35px;
+}
+
+/* Image */
+.pro-s3-img{
+    width: 30px;
+    height: 30px;
+}
+
+/* Small Heading */
+.pro-s3-sm-heading{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #f8931d;
+    font-weight: 600;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .pro-s3-container{
+        padding: 50px 20px !important;
+    }
+
+}
+
+/* --------------------------------------------------------------Section 5 ------------------------------------------------------*/
+
+/* Container */
+.pro-s5-container{
+    padding: 50px 150px !important;
+}
+
+/* Child */
+.pro-s5-child-container{
+    display: flex;
+    justify-content: center;
+}
+
+.pro-s5-child{
+    margin-bottom: 30px;
+}
+
+/* Image Container */
+.pro-s5-img-container{
+    display: flex;
+    align-items: stretch;
+    height: 300px;
+    margin-top: 50px;
+
+    overflow: hidden; /* To hide the overflowing image */
+}
+
+/* Image */
+.pro-s5-img{
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+/* Small Heading */
+.pro-s5-sm-heading{
+    color: #f8931d;
+    font-size: 24px;
+    margin-top: 20px;
+    transition: 0.5s ease;
+
+    &:hover{
+        color: #2b3991 !important; 
+    }
+}
+
+/* Small Paragraph */
+.pro-s5-sm-para{
+    color: #2b3991;
+    font-size: 16px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.pro-s5-img-container:hover+.pro-s5-sm-heading{
+    color: #2b3991 !important; 
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .pro-s5-container{
+        padding: 50px 30px !important;
+    }
+}
+
+/* --------------------------------------------------------------Section 6----------------------------------------------------- */
+
+/* Container */
+.pro-s6-container{
+    padding: 50px 150px !important;
+}
+
+/* Horizontal Line Container */
+.pro-s6-hr-line-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Horizontal Line */
+.pro-s6-hr-line{
+    color: #000000;
+    opacity: 0.5;
+    width: 100%;
+}
+
+/* Text Container */
+.pro-s6-txt-container{
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+/* List */
+.pro-s6-list{
+    color: #00000099;
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .pro-s6-container{
+        padding: 0px 30px !important;
+    }
+
+    /* Text Container */
+    .pro-s6-txt-container{
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+
+    /* Horizontal Line */
+    .pro-s6-hr-line{
+        width: 87%;
+    }
+}

@@ -1,0 +1,54 @@
+
+/* Container */
+.get-image-container{
+    background:  linear-gradient(rgba(43, 57, 145, .75), rgba(43, 57, 145, .75)), url('../../Images/Home/enquire.jpg');
+    margin: 50px 0px;
+    padding: 4.5em 8em !important;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Heading */
+.get-heading{
+    font-size: 36px;
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+/* Paragraph */
+.get-para{
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffffcc;
+}
+
+/* Button Container */
+.get-btn-container{
+    margin-top: 30px;
+}
+
+/* Button */
+.get-btn{
+    color: #fff;
+    padding: 16px 24px !important;
+    background-color: #da1c5c;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    /* Container */
+    .get-image-container{
+        padding: 4.5em 2em !important;
+
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

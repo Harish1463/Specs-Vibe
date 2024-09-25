@@ -1,0 +1,72 @@
+/* Container */
+.client-container{
+    padding: 80px 150px !important;
+    background-color: #f1f1f1;
+}
+
+/* Heading 1 */
+.client-heading1{
+    color: #f8931d;
+    font-size: 20px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Heading 2 */
+.client-heading2{
+    color: #2b3991;
+    font-size: 38px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+/* Slider Container */
+.client-slider-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Image Container */
+.client-img-container{
+    width: 170px !important;
+    height: 170px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Image */
+.client-img{
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain;
+    padding: 20px 0px !important;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+
+    /* Container */
+    .client-container{
+        padding: 80px 30px !important;
+    }
+
+    /* Image */
+    .client-img{
+        padding: 20px 10px !important;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+
+    /* Heading 2 */
+    .client-heading2{
+        font-size: 32px;
+    }
+
+}

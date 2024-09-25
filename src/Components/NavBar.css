@@ -1,0 +1,104 @@
+/* Navigation Bar Container */
+.navb-container{
+    background-color: #fff;
+}
+
+/* Navigation Bar Link Container */
+.navb-link-container{
+    padding: 0px 0px 0px 55px !important;
+    margin: 0px 0px 0px 55px !important;
+}
+
+@media screen and (max-width: 1300px ) {
+    .navb-link-container{
+        padding: 0px 0px !important;
+        margin: 0px 0px !important;
+    }
+}
+
+/* Navigation Bar Text */
+.navb-page-txt{
+    color: #000 !important;
+    font-size: 15px !important;
+    font-family: "Work Sans", Arial, sans-serif !important;
+    text-decoration: none !important;
+    padding: 16px 50px 16px 20px !important;
+    font-weight: 600 !important;
+    transition: 0.5s ease !important;
+
+    &:hover{
+        color: #fd7e14 !important;
+        letter-spacing: 1.5px;
+    }
+}
+
+/* Navigation Bar Text Active */
+.navb-page-txt-active{
+    color: #2b3991 !important;
+}
+
+/* Navigation Bar Button Container */
+.navb-btn-container{
+    padding: 0px 100px 0px 0px;
+}
+
+/* Navigation Bar Button */
+.navb-btn{
+    border: none;
+    background-color: #da1c5c;
+    padding: 8px 16px;
+    border-radius: 30px;
+}
+
+/* Navigation Bar Button Text*/
+.navb-btn-txt{
+    color: #fff;
+    font-size: 16px;
+    font-family: "Work Sans", Arial, sans-serif;
+    text-decoration: none;
+}
+
+/* Navigation Bar Hamburger Button */
+.navb-menu-btn{
+    color: #ffffffb3 !important;
+    padding-top: 5px;
+}
+
+/* Navigation Bar Hamburger Button Text */
+.navb-menu-btn-txt{
+    color: #ffffffb3;
+    font-size: 16px;
+    font-family: "Work Sans", Arial, sans-serif;
+    letter-spacing: 1.5px;
+    padding-left: 3px !important;
+}
+
+@media screen and (max-width: 992px) {
+    /* Navigation Bar Container */
+    .navb-container{
+        background-color: #000;
+    }
+
+    /* Navigation Bar Text */
+    .navb-page-txt{
+        color: #ffffffb3 !important;
+
+        &:hover{
+            color: #fff !important;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    /* Navigation Bar Text Active */
+    .navb-page-txt-active{
+        color: #fff !important;
+    }
+
+    /* Navigation Bar Button Container */
+    .navb-btn-container{
+        padding: 0px 10px 0px 0px;
+        position: absolute;
+        top: 7px;
+        right: 16px;
+    }
+}

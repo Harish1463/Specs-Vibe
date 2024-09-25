@@ -1,0 +1,411 @@
+/* ------------------------------------------------------------Section 2--------------------------------------------------------------- */
+
+/* Home Section 2 Container */
+.home-s2-container{
+    padding: 0px 20px !important;
+    margin: 0px 115px !important;
+
+    margin-top: -60px !important;
+    position: relative;
+    z-index: 1;
+}
+
+/* ODD Box */
+.home-s2-col-odd{
+    background-color: #2b3991;
+    padding: 24px !important;
+}
+
+/* EVEN Box */
+.home-s2-col-even{
+    background-color: #007bff;
+    padding: 24px !important;
+}
+
+/* Text Container */
+.home-s2-txt-container{
+    padding: 8px;
+    margin-top: 16px;
+}
+
+/* Heading */
+.home-s2-heading{
+    margin-bottom: 16px;
+    color: #f8931d;
+    font-size: 20px;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* Paragraph */
+.home-s2-para{
+    margin-bottom: 16px;
+    color: #ffffffcc;
+    font-size: 16px;
+    font-family: "Work Sans", Arial, sans-serif;
+    line-height: 26px;
+}
+
+/* Icon */
+.home-s2-icon{
+    color: #fff;
+    font-size: 50px;
+}
+
+/* Icon ODD */
+.home-s2-icon-odd{
+    height: 80px;
+    width: 80px;
+    background-color: #61a6fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    transition: 0.8s ease-in-out;
+
+    &:hover{
+        transform: rotateY(180deg);
+        cursor: pointer;
+    }
+}
+
+/* Icon EVEN*/
+.home-s2-icon-even{
+    height: 80px;
+    width: 80px;
+    background-color: #2b3991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    transition: 0.8s ease-in-out;
+
+    &:hover{
+        transform: rotateY(180deg);
+        cursor: pointer;
+    }
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    /* Home Section 2 Container */
+    .home-s2-container{
+        padding: 0px 20px !important;
+        margin: 0px 0px !important;
+
+        margin-top: -60px !important;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Home Section 2 Container */
+    .home-s2-container{
+        margin-top: -6px !important;
+    }
+}
+
+/* ----------------------------------------------------------------Section 5--------------------------------------------------------------- */
+/* Container */
+.home-s5-container{
+    padding: 30px 150px !important ;
+}
+
+/* Heading 1 */
+.home-s5-heading1{
+    color: #f8931d;
+    font-size: 20px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Heading 2 */
+.home-s5-heading2{
+    color: #2b3991;
+    font-size: 38px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+/* Paragraph */
+.home-s5-para{
+    color: #00000099;
+    margin-bottom: 16px;
+    text-align: justify;
+    line-height: 28px;
+}
+
+/* Text Container */
+.home-s5-txt-container{
+    display: flex;
+    padding: 30px;
+}
+
+.home-s5-sm-container{
+    padding-right: 40px;
+}
+
+/* Img container */
+.home-s5-icon-container{
+    border: 2px solid #2b3991;
+    padding: 15px;
+    height: fit-content;
+    margin-top: 8px;
+    margin-right: 16px;
+}
+
+/* Font */
+.home-s5-icon{
+    height: 30px;
+    width: 30px;
+    color: #2b3991;
+}
+
+/* Small Heading */
+.home-s5-sm-heading{
+    color: #f8931d;
+    font-size: 18px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    /* Container */
+    .home-s5-container{
+        padding: 30px 20px !important ;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    .home-s5-heading2{
+        font-size: 32px;
+    }
+}
+
+/* --------------------------------------------------------------Section 6---------------------------------------------------------- */
+
+/* Container */
+.home-s6-container{
+    padding: 80px 150px !important ;
+    background-color: #f1f1f1;
+}
+
+/* Card Container */
+.home-s6-card-container{
+    margin-top: 70px !important;
+    display: flex;
+    justify-content: center;
+}
+
+/* Card */
+.home-s6-card{
+    width: 32% !important;
+    background-color: #2b3991;
+    margin: 0px 8px 24px !important;
+    padding: 36px 35px 48px 35px !important;
+    border-radius: 10px;
+}
+
+/* Card Heading */
+.home-s6-card-heading{
+    color: #f8931d;
+    font-size: 25px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-bottom: 24px;
+}
+
+/* Card Paragraph */
+.home-s6-card-para{
+    color: #fff;
+    font-size: 16px;
+    font-family: "Work Sans", Arial, sans-serif;
+    line-height: 28px;
+    text-align: justify;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    /* Container */
+    .home-s6-container{
+        padding: 80px 20px !important ;
+    }
+
+    /* Card */
+    .home-s6-card{
+        width: 45% !important;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+
+    /* Container */
+    .home-s6-container{
+        padding: 80px 40px !important ;
+    }
+
+    /* Card */
+    .home-s6-card{
+        width: 100% !important;
+    }
+}
+
+/* --------------------------------------------------------Section 7----------------------------------------------------------- */
+
+/* Container */
+.home-s7-container{
+    padding: 80px 150px !important;
+}
+
+/* Image Container  */
+.home-s7-img-container{
+    display: flex;
+    align-items: stretch;
+    height: 300px;
+    margin-top: 50px;
+
+    overflow: hidden; /* To hide the overflowing image */
+}
+
+/* Images */
+.home-s7-img{
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.home-s7-img-container:hover+.home-s7-heading{
+    color: #2b3991 !important; 
+}
+
+/* .home-s7-heading:hover+.home-s7-img{
+    transform: scale(1.05) !important;
+} */
+
+
+/* Heading */
+.home-s7-heading{
+    color: #f8931d;
+    font-size: 24px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-top: 16px;
+    transition: 0.5s ease;
+
+    &:hover{
+        color: #2b3991 !important;
+    }
+}
+
+/* Paragraph */
+.home-s7-caption{
+    color: #2b3991;
+    font-size: 16px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    /* Container */
+    .home-s7-container{
+        padding: 80px 20px !important;
+    }
+}
+
+/* -----------------------------------------------------------Section 8-------------------------------------------------------- */
+
+/* Container */
+.home-s8-container{
+    padding: 80px 150px !important;
+}
+
+/* Slider */
+.home-s8-slider{
+    /* padding: 0px 150px !important; */
+    display: flex;
+    justify-content: center;
+}
+
+/* Text Container */
+.home-s8-txt-container{
+    background: linear-gradient(0deg, rgba(219, 221, 12, 1) 0%, rgba(45, 231, 253, 1));
+    padding: 48px;
+    margin-top: 50px;
+}
+
+/* Quote */
+.home-s8-quote{
+    text-indent: 2px;
+    color: #000000cc;
+    margin-bottom: 16px;
+    line-height: 0px !important;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+
+    padding-right: 50px !important;
+}
+
+/* "" */
+.home-s8-icon{
+    font-size: 25px;
+    margin: 0px 10px !important;
+}
+
+/* Name */
+.home-s8-name{
+    font-size: 20px;
+    color: #2b3991;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* Place */
+.home-s8-place{
+    font-size: 17px;
+    color: #000000;
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .home-s8-container{
+        padding: 80px 30px !important;
+    }
+
+    /* Quote */
+    .home-s8-quote{
+        padding-right: 0px !important;
+        line-height: 26px !important;
+    }
+}
+
+/* Mobile view */
+@media screen and (max-width: 767px) {
+    
+    /* Quote */
+    .home-s8-quote{
+        padding-right: 0px !important;
+        line-height: 26px !important;
+    }
+}
